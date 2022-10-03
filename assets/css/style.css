@@ -223,9 +223,44 @@ ul li{
     border-radius: 20px;
     padding: 10px 40px;
     border: none;
-
 }
 
+/* about us */
+
+.about-us{
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.about-text{
+    color: #9593E6;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin: 20px 0;
+}
+
+.about-img img{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 10rem;
+    height: 10rem;
+    margin: 2rem 0;
+}
+
+.about-btn{
+    background-color: #9593E6;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 40px;
+    border: none;
+}
+
+.about-cit{
+    width: 40%;
+    margin: 0;
+    text-align: start;
+}
 
 /************************************************
                     RESPONSIVE
