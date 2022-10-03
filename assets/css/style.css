@@ -21,6 +21,7 @@ img{
     align-items: center;
 }
 
+
 /* header */
 
 header{    
@@ -182,6 +183,47 @@ ul li{
     object-fit: cover;
     width: 10rem;
     height: 10rem;
+}
+
+/* benefits */
+
+.benefits-text{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.benefits-card{
+    background-color: white;
+    border-radius: 25px;
+    padding: 30px;
+    margin: 20px 0;
+}
+
+.benefits-card h1{
+    font-size: 2rem;
+    color: #9593E6;
+    padding: 20px 0;
+}
+
+.benefits-card h2{
+    font-size: 1.6rem;
+    color: #9593E6;
+    padding: 15px 0;
+}
+
+.benefits-card p{
+    margin: 20px 0;
+}
+
+.benefits-btn{
+    background-color: #9593E6;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 40px;
+    border: none;
+
 }
 
 
