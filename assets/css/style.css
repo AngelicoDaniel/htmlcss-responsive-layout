@@ -262,6 +262,55 @@ ul li{
     text-align: start;
 }
 
+/* get started */
+
+.started{
+    text-align: center;
+    padding: 20px;
+}
+
+.simple-text{
+    color: white;
+    font-size: 2.2rem;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+.free-text{
+    color: rgba(202, 165, 42, 0.974);
+    font-size: 3.8rem;
+    font-weight: bolder;
+    padding: 20px 0;
+}
+
+.started p{
+    color: white;
+    padding: 20px;
+}
+
+.start-btn{
+    background-color: white;
+    color: #9593E6;
+    border-radius: 20px;
+    padding: 15px 50px;
+    border: none;
+    margin: 20px;
+    font-weight: bold;
+}
+
+.copyright{
+    color: white;
+    font-size: 1rem;
+}
+
+.copyright i{
+    font-size: .5rem;
+}
+
+.privacy-text{
+    text-decoration: underline;
+}
+
 /************************************************
                     RESPONSIVE
  ************************************************/
