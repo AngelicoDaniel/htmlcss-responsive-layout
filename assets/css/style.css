@@ -30,7 +30,7 @@ header{
     padding: 10px 0;
 }
 
-.nav-container{
+.big-container{
     width: 90%;  
     margin: auto;  
 }
@@ -126,7 +126,7 @@ ul li{
 
 .development-text{
     font-weight: bold;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     padding: 40px 0;
 }
 
@@ -142,7 +142,47 @@ ul li{
     font-style: italic;
 }
 
+/* testimonials */
 
+.testimonials{
+    text-align: center;
+    padding: 20px;
+}
+
+.purple-text{
+    color: #9593E6;
+    font-size: 1.6rem;
+    font-weight: bolder;
+    margin: 20px;
+    line-height: normal;
+}
+
+.testimonial-text p{
+    font-size: 1rem;
+    padding: 20px;
+}
+
+.testimonial-text div{
+    font-weight: bold;
+    font-size: 1.4rem;
+    padding: 20px;
+}
+
+.testimonial-card{
+    background-color: #9593E6;
+    color: white;
+    border-radius: 15%;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.testimonial-img img{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 10rem;
+    height: 10rem;
+}
 
 
 /************************************************
