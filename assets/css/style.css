@@ -46,10 +46,7 @@ ul li{
 
 /* main */
 
-.container{
-    width:90%
-  }
-  
+
 .columns{
     text-align:center;
     margin: 20px; 
@@ -65,7 +62,7 @@ ul li{
 .blue-txt{
     color: #0084FD;
     font-weight: bolder;
-    font-size: larger;
+    font-size: 2rem;
     padding: 20px 0;
 }
 
@@ -86,7 +83,11 @@ ul li{
     padding: 20px;
 }
 
-
+.blue-icon{
+    color:#0084FD;
+    font-size: 5rem;
+    padding: 20px;
+}
 
 
 
