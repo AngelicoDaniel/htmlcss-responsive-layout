@@ -30,9 +30,18 @@ header{
 }
 
 ul button{
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 5px;
+    border: none;
+    color: black;
+    background-color: white;
 }
+
+ul li{
+    margin: 0 10px;
+}
+
+
 
 
 
@@ -43,9 +52,18 @@ ul button{
                     RESPONSIVE
  ************************************************/
 
+ /* TABLET */
 
  @media screen and (max-width: 768px){
     .nav-list{
+        display: none;
+    }
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 769px) {
+    .burger{
         display: none;
     }
 }
