@@ -124,7 +124,7 @@ ul li{
 
 
     .blue-card{
-        flex: 1 1 30%;
+        flex-basis: calc(90%/3);
     }
 
     .blue-card img{
@@ -132,7 +132,7 @@ ul li{
     }
 
     .app{
-        flex: 1 1 60%;
+        flex-basis: 65%
     }
 
    
