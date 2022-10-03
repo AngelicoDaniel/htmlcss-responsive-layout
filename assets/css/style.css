@@ -99,7 +99,7 @@ ul li{
 
  /* TABLET */
 
- @media screen and (max-width: 768px){
+ @media screen and (max-width: 767px){
     .nav-list{
         display: none;
     }
@@ -110,7 +110,7 @@ ul li{
 
 /* DESKTOP */
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
     .burger{
         display: none;
     }
@@ -119,22 +119,23 @@ ul li{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        gap: 1rem;
     }
 
-    .top-cards{
-       display: flex;
-       justify-content: space-between;
-    }
 
     .blue-card{
-        flex-basis: 30%;
+        flex: 1 1 30%;
     }
 
-    .top-cards .app{
-        flex-basis: 60%;
+    .blue-card img{
+        width: 60%;
     }
 
-    
+    .app{
+        flex: 1 1 60%;
+    }
+
+   
 
 
   
