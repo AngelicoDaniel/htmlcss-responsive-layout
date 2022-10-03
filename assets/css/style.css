@@ -1,4 +1,4 @@
-a*{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -149,6 +149,14 @@ ul li{
 
 @media screen and (min-width: 1024px) {
     .app{
-        display: flex;
+        display: flex;    
     }
+
+    .blue-card img{
+        padding-top: 150px;
+        
+    }
+
+    
+
 }
