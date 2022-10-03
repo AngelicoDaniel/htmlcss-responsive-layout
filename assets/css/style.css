@@ -1,4 +1,4 @@
-*{
+a*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -47,6 +47,8 @@ ul li{
 /* main */
 
 
+/* blue cards */
+
 .columns{
     text-align:center;
     margin: 20px; 
@@ -72,7 +74,7 @@ ul li{
     padding: .5rem 3rem;
     border-radius: 20px;
     border: none;
-    margin: 20px 0;
+    margin: 1rem 0;
 }
 
 .phone img{
@@ -88,6 +90,12 @@ ul li{
     color:#0084FD;
     font-size: 5rem;
     padding: 20px;
+}
+
+/* purple section */
+
+.bg-purple{
+    background-color: #9593E6;
 }
 
 
@@ -108,7 +116,7 @@ ul li{
 
 }
 
-/* DESKTOP */
+/* TABLET */
 
 @media screen and (min-width: 768px) {
     .burger{
@@ -128,15 +136,19 @@ ul li{
     }
 
     .blue-card img{
-        width: 60%;
+        width: 100%;
     }
 
     .app{
-        flex-basis: 65%
+        flex-basis: 65%;
     }
-
-   
-
-
   
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 1024px) {
+    .app{
+        display: flex;
+    }
 }
