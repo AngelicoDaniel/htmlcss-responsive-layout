@@ -17,6 +17,8 @@
     align-items: center;
 }
 
+/* header */
+
 header{    
     background-color: #0084FD;
     color: white;
@@ -42,6 +44,47 @@ ul li{
 }
 
 
+/* main */
+
+.container{
+    width:90%
+  }
+  
+.columns{
+    text-align:center;
+    margin: 20px; 
+}
+  
+.blue-card{
+    background-color:#B5DDFF;
+    margin: 20px 0;
+    border-radius: 20px;
+      
+}
+
+.blue-txt{
+    color: #0084FD;
+    font-weight: bolder;
+    font-size: larger;
+    padding: 20px 0;
+}
+
+.apple-btn{
+    background-color: #0084FD;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    margin: 20px 0;
+}
+
+.phone img{
+    width: 100%
+}
+
+.blue-card p{
+    padding: 20px;
+}
 
 
 
