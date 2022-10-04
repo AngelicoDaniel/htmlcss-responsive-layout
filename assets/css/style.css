@@ -314,6 +314,10 @@ ul li{
     padding: 20px;
 }
 
+h3{
+    font-size: 1.2rem;
+}
+
 .start-btn{
     background-color: white;
     color: #9593E6;
@@ -331,6 +335,9 @@ ul li{
 
 .copyright i{
     font-size: .5rem;
+    margin: 0px 2px;
+    position: relative;
+    bottom: 2px;
 }
 
 .privacy-text{
