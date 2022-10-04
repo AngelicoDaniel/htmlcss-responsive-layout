@@ -235,7 +235,7 @@ ul li{
 /* about us */
 
 .about-us{
-    width: 90%;
+    width: 80%;
     margin: auto;
     padding: 20px 0;
 }
@@ -252,7 +252,19 @@ ul li{
     object-fit: cover;
     width: 10rem;
     height: 10rem;
-    margin: 2rem 0;
+    margin: 2rem 0;    
+}
+
+.about-img{
+    position: relative;
+}
+
+.about-img i{
+    position: absolute;
+    top: 2rem;
+    left: 7rem;
+    color: #9593E6;
+    font-size: 3rem;
 }
 
 .about-btn{
@@ -261,6 +273,7 @@ ul li{
     border-radius: 20px;
     padding: 10px 40px;
     border: none;
+    white-space: nowrap;
 }
 
 .about-bottom{
@@ -409,8 +422,10 @@ footer a{
 
 @media screen and (min-width: 1024px) {
 
+
+
     .container{
-        width: 70%;
+        width: 60%;
         margin: 0 auto;
     }
 
