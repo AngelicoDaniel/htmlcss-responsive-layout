@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine&family=Fira+Sans&family=Inter:wght@100;400&family=Kanit&family=Roboto&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style-type: none;
+    font-family: 'Domine', serif;
 }
 
 img{
@@ -429,7 +432,7 @@ footer a{
 
 
     .container{
-        width: 60%;
+        width: 50%;
         margin: 0 auto;
     }
 
