@@ -430,6 +430,11 @@ footer a{
         margin: 1rem;
     }
 
+    footer .f-container{
+        width: 60%;
+        margin: auto;
+    }
+
 }
 
 /* DESKTOP */
@@ -453,6 +458,11 @@ footer a{
     }
 
     .started{
+        width: 50%;
+        margin: auto;
+    }
+
+    .f-container{
         width: 50%;
         margin: auto;
     }
