@@ -137,7 +137,7 @@ ul li{
 
 .development-btn{
     background-color: #9593E6;
-    border-radius: 50%;
+    clip-path: circle();
     padding: 15px;
     margin: 10px;
     border: none;
@@ -186,10 +186,8 @@ ul li{
 }
 
 .testimonial-img img{
-    border-radius: 50%;
-    object-fit: cover;
-    width: 10rem;
-    height: 10rem;
+    width: 90%;
+    clip-path: circle();
 }
 
 /* benefits */
@@ -401,6 +399,7 @@ footer a{
         display: flex;
     }
 
+
     .big-container{
         display: flex;
         flex-wrap: wrap;
@@ -461,6 +460,11 @@ footer a{
     .development{
         width: 80%;
         margin-top: 9rem;
+    }
+
+    .testimonial-img img{
+        width: 80%;
+        clip-path: circle();
     }
 
     .big-container{
