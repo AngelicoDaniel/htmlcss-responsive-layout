@@ -66,6 +66,10 @@ ul li{
       
 }
 
+.blue-card img{
+    display: block;
+}
+
 .blue-txt{
     color: #0084FD;
     font-weight: bolder;
@@ -401,16 +405,17 @@ footer{
         display: flex;    
     }
 
-    .blue-card img{
-        padding-top: 150px;
-        
+    .blue-card .phone{
+        align-self: flex-end;
+        display: block;
     }
+
+
 
 
     .bg-purple img{
         width: 60%;
         margin: auto;
-
     } 
 
 
