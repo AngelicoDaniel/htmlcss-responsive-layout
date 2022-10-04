@@ -277,7 +277,7 @@ ul li{
 }
 
 .free-text{
-    color: rgba(202, 165, 42, 0.974);
+    color: #F5BE64;
     font-size: 3.8rem;
     font-weight: bolder;
     padding: 20px 0;
@@ -309,6 +309,15 @@ ul li{
 
 .privacy-text{
     text-decoration: underline;
+}
+
+/* footer */
+
+footer{
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
 /************************************************
